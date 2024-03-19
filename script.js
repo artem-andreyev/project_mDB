@@ -1,6 +1,8 @@
     document.addEventListener("DOMContentLoaded", () => {
         "use strict";
 
+        // Tabs
+
     const movieDB = {
         movies: [
             "Логан",
@@ -97,25 +99,23 @@
     makeChanges();
     createMovieList(movieDB.movies, movieList);
     
+    // const promo__adv = document.querySelector(".promo__adv"); // 1
+    // promo__adv.remove();
 
+    // const rename = document.querySelector(".promo__genre"); // 2
+    // rename.replaceWith("ДРАМА")
 
-// const promo__adv = document.querySelector(".promo__adv"); // 1
-// promo__adv.remove();
+    // const background = document.querySelector(".promo__bg").src="img/bg.jpg"; // 3
+    // const backgroundNew = 
+    // background.replaceWith(image);
 
-// const rename = document.querySelector(".promo__genre"); // 2
-// rename.replaceWith("ДРАМА")
+    // const addElement = (event) => {
+    //     if (i == 1) {
+    //         btn.addEventListener("click", addElement);
+    //     }
+    // }
 
-// const background = document.querySelector(".promo__bg").src="img/bg.jpg"; // 3
-// const backgroundNew = 
-// background.replaceWith(image);
-
-// const addElement = (event) => {
-//     if (i == 1) {
-//         btn.addEventListener("click", addElement);
-//     }
-// }
-
-// let buttonValues = confirmButton.addEventListener("click", addElement);
-// buttonValues.movieDB.movies
-
+    // let buttonValues = confirmButton.addEventListener("click", addElement);
+    // buttonValues.movieDB.movies   
+    
 });
